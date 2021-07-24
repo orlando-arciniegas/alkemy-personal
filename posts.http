@@ -1,0 +1,30 @@
+### Requests ###
+GET http://localhost:4000/posts
+
+###
+POST http://localhost:4000/posts
+Content-Type: application/json
+
+{   
+    "title": "Docky",
+    "content": "El perrito de mi novia.",
+    "image": "img-12030",
+    "category": "Dogs"
+}
+
+###
+GET http://localhost:4000/post/1
+
+###
+DELETE http://localhost:4000/post/1
+
+###
+PUT http://localhost:4000/post/2
+Content-Type: application/json
+
+{
+    "title": "Sophi",
+    "content": "Mi perrita mestiza",
+    "image": "img-12028",
+    "category": "Dogs"
+}
