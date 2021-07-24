@@ -14,7 +14,7 @@ Para instalar los módulos requeridos para el funcionamiento de la aplicación.
 
 Una vez instalados los módulos, para iniciar el servidor en modo desarollo.
 
-Abre [http://localhost:4000/api](http://localhost:4000/api) en el navegador para verificar su funcionamiento.
+Abre [http://localhost:4000/posts](http://localhost:4000/posts) en el navegador para verificar su funcionamiento.
 
 ### `npm run build`
 
